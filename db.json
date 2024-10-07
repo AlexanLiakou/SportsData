@@ -1,0 +1,279 @@
+{
+    "users":[
+        {
+          "userId": "01",
+          "name": "John",
+          "surname": "Doe",
+          "email": "john.doe@email.com",
+          "userName": "johnDoe23",
+          "password": "abc123xyz",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "FC_Barcelona",
+          "favouriteBasketballTeam": "Los_Angeles_Lakers"
+        },
+        {
+          "userId": "02",
+          "name": "Sarah",
+          "surname": "Smith",
+          "email": "sarah.smith@email.com",
+          "userName": "sarahs86",
+          "password": "passw0rd",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Manchester_United_FC",
+          "favouriteBasketballTeam": "Chicago_Bulls"
+        },
+        {
+          "userId": "03",
+          "name": "Michael",
+          "surname": "Johnson",
+          "email": "michael.johnson@email.com",
+          "userName": "mj44johnson",
+          "password": "bball4life",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Real_Madrid_CF",
+          "favouriteBasketballTeam": "Boston_Celtics"
+        },
+        {
+          "userId": "04",
+          "name": "Emily",
+          "surname": "Williams",
+          "email": "emily.williams@email.com",
+          "userName": "emilyW98",
+          "password": "emilysafe1",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "Paris_Saint-Germain_FC",
+          "favouriteBasketballTeam": "Miami_Heat"
+        },
+        {
+          "userId": "05",
+          "name": "James",
+          "surname": "Brown",
+          "email": "james.brown@email.com",
+          "userName": "jBrown007",
+          "password": "superJames",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Juventus_FC",
+          "favouriteBasketballTeam": "Golden_State_Warriors"
+        },
+        {
+          "userId": "06",
+          "name": "Olivia",
+          "surname": "Taylor",
+          "email": "olivia.taylor@email.com",
+          "userName": "oliviaT33",
+          "password": "strongPass",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "Liverpool_FC",
+          "favouriteBasketballTeam": "Toronto_Raptors"
+        },
+        {
+          "userId": "07",
+          "name": "Daniel",
+          "surname": "Anderson",
+          "email": "daniel.anderson@email.com",
+          "userName": "danAnd44",
+          "password": "daniel654",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Chelsea_FC",
+          "favouriteBasketballTeam": "Dallas_Mavericks"
+        },
+        {
+          "userId": "08",
+          "name": "Sophia",
+          "surname": "Moore",
+          "email": "sophia.moore@email.com",
+          "userName": "sophiaMo123",
+          "password": "soMoore98",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "Bayern_Munich",
+          "favouriteBasketballTeam": "Brooklyn_Nets"
+        },
+        {
+          "userId": "09",
+          "name": "Matthew",
+          "surname": "Clark",
+          "email": "matthew.clark@email.com",
+          "userName": "mattClark22",
+          "password": "clarkPower",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Atletico_Madrid",
+          "favouriteBasketballTeam": "Milwaukee_Bucks"
+        },
+        {
+          "userId": "10",
+          "name": "Chloe",
+          "surname": "Davis",
+          "email": "chloe.davis@email.com",
+          "userName": "chloeD12",
+          "password": "chloeyy89",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "AS_Roma",
+          "favouriteBasketballTeam": "New_York_Knicks"
+        },
+        {
+          "userId": "11",
+          "name": "David",
+          "surname": "Martinez",
+          "email": "david.martinez@email.com",
+          "userName": "dMartinez77",
+          "password": "secureDave",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Napoli_FC",
+          "favouriteBasketballTeam": "Phoenix_Suns"
+        },
+        {
+          "userId": "12",
+          "name": "Grace",
+          "surname": "White",
+          "email": "grace.white@email.com",
+          "userName": "graceW24",
+          "password": "graceful12",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "Inter_Milan",
+          "favouriteBasketballTeam": "Atlanta_Hawks"
+        },
+        {
+          "userId": "13",
+          "name": "Samuel",
+          "surname": "Harris",
+          "email": "samuel.harris@email.com",
+          "userName": "sammyH99",
+          "password": "samh12345",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "AC_Milan",
+          "favouriteBasketballTeam": "Philadelphia_76ers"
+        },
+        {
+          "userId": "14",
+          "name": "Emma",
+          "surname": "Thompson",
+          "email": "emma.thompson@email.com",
+          "userName": "emmaThomp8",
+          "password": "thompson789",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "FC_Porto",
+          "favouriteBasketballTeam": "San_Antonio_Spurs"
+        },
+        {
+          "userId": "15",
+          "name": "Joshua",
+          "surname": "Lewis",
+          "email": "joshua.lewis@email.com",
+          "userName": "joshL16",
+          "password": "joshsecure",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "Sevilla_FC",
+          "favouriteBasketballTeam": "Denver_Nuggets"
+        },
+        {
+          "userId": "16",
+          "name": "Mia",
+          "surname": "Walker",
+          "email": "mia.walker@email.com",
+          "userName": "miaWalk88",
+          "password": "miapass123",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Tottenham_Hotspur_FC",
+          "favouriteBasketballTeam": "Utah_Jazz"
+        },
+        {
+          "userId": "17",
+          "name": "William",
+          "surname": "Robinson",
+          "email": "william.robinson@email.com",
+          "userName": "willR32",
+          "password": "robWilliam",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "Ajax_Amsterdam",
+          "favouriteBasketballTeam": "Indiana_Pacers"
+        },
+        {
+          "userId": "18",
+          "name": "Ava",
+          "surname": "Hall",
+          "email": "ava.hall@email.com",
+          "userName": "avaHall92",
+          "password": "hallava43",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Boca_Juniors",
+          "favouriteBasketballTeam": "Orlando_Magic"
+        },
+        {
+          "userId": "19",
+          "name": "Henry",
+          "surname": "Young",
+          "email": "henry.young@email.com",
+          "userName": "henryY21",
+          "password": "yHenry987",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "River_Plate",
+          "favouriteBasketballTeam": "Minnesota_Timberwolves"
+        },
+        {
+          "userId": "20",
+          "name": "Ella",
+          "surname": "King",
+          "email": "ella.king@email.com",
+          "userName": "ellaK70",
+          "password": "kingElla",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Santos_FC",
+          "favouriteBasketballTeam": "New_Orleans_Pelicans"
+        },
+        {
+          "userId": "21",
+          "name": "Christopher",
+          "surname": "Scott",
+          "email": "christopher.scott@email.com",
+          "userName": "chrisS54",
+          "password": "chrisscot12",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "Benfica",
+          "favouriteBasketballTeam": "Washington_Wizards"
+        },
+        {
+          "userId": "22",
+          "name": "Isabella",
+          "surname": "Torres",
+          "email": "isabella.torres@email.com",
+          "userName": "isabellat45",
+          "password": "isaTorres1",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Corinthians",
+          "favouriteBasketballTeam": "Houston_Rockets"
+        },
+        {
+          "userId": "23",
+          "name": "Jack",
+          "surname": "Green",
+          "email": "jack.green@email.com",
+          "userName": "jackG88",
+          "password": "jackGreen9",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "Flamengo",
+          "favouriteBasketballTeam": "Cleveland_Cavaliers"
+        },
+        {
+          "userId": "24",
+          "name": "Sophie",
+          "surname": "Baker",
+          "email": "sophie.baker@email.com",
+          "userName": "sophieB99",
+          "password": "safeBaker1",
+          "favouriteSport": "Basketball",
+          "favouriteFootballTeam": "Palmeiras",
+          "favouriteBasketballTeam": "Sacramento_Kings"
+        },
+        {
+          "userId": "25",
+          "name": "Ethan",
+          "surname": "Carter",
+          "email": "ethan.carter@email.com",
+          "userName": "ethanC47",
+          "password": "ethanc1234",
+          "favouriteSport": "Football",
+          "favouriteFootballTeam": "Sporting_CP",
+          "favouriteBasketballTeam": "Detroit_Pistons"
+        }
+    ]
+}
