@@ -1,5 +1,10 @@
 import React, {useState} from "react";
 import User from "../models/User";
+import TextInput from "../components/UI/Form/TextInput";
+import SelectInput from "../components/UI/Form/SelectInput";
+import CountrySelector from "../components/UI/Form/CountriesSelectInput";
+import RegisterButton from "../components/UI/Buttons/RegisterButton";
+
 
 const Register = () => {
 
@@ -8,6 +13,7 @@ const Register = () => {
         name: '',
         surname: '',
         email: '',
+        country: '',
         userName: '',
         password: '',
         favouriteSport: '',
@@ -15,79 +21,29 @@ const Register = () => {
         favouriteBasketballTeam: '',
     });
 
+    const sportsOptions = [
+      {label: 'Football'},
+      {label: 'Basketball'}
+      ];
+
     return(
-        <div>
-            <label className="block">
-                <span className="text-gray-700">Name*</span>
-                <input
-                    name='name' 
-                    type="text" 
-                    className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
-                    onChange={(e) => setFormData({...formData, name: e?.target.value})}/>
-            </label>
-            <label className="block">
-                <span className="text-gray-700">Surname*</span>
-                <input
-                    name='suname' 
-                    type="text" 
-                    className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
-                    onChange={(e) => setFormData({...formData, surname: e?.target.value})}/>            
-            </label>
-            <label className="block">
-                <span className="text-gray-700">Email address*</span>
-                <input
-                name='email'
-                type="email" 
-                className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0" 
-                placeholder="john@example.com"
-                onChange={(e) => setFormData({...formData, email: e?.target.value})}/>
-            </label>
-              <label className="block">
-                <span className="text-gray-700">Favourite Sport</span>
-                <select 
-                name="favouriteSport" 
-                className="block w-full mt-1 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
-                onChange={(e) => setFormData({...formData, favouriteSport: e?.target.value})}>
-                  <option>Football</option>
-                  <option>Basketball</option>
-                </select>
-              </label>
-              <label className="block">
-                <span className="text-gray-700">Favourite Football Team</span>
-                <input
-                    name='favouriteFootballTeam' 
-                    type="text" 
-                    className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
-                    onChange={(e) => setFormData({...formData, favouriteFootballTeam: e?.target.value})}/>
-                </label>
-              <label className="block">
-                <span className="text-gray-700">Favourite Basketball Team</span>
-                <input
-                    name='favouriteBasketballTeam' 
-                    type="text" 
-                    className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
-                    onChange={(e) => setFormData({...formData, favouriteBasketballTeam: e?.target.value})}/>                  
-                </label>
-              <label className="block">
-                <span className="text-gray-700">Username*</span>
-                <input
-                    name='userName' 
-                    type="text" 
-                    className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
-                    onChange={(e) => setFormData({...formData, userName: e?.target.value})}/>
-            </label>
-              <label className="block">
-                <span className="text-gray-700">Password*</span>
-                <input
-                    name='password' 
-                    type="text" 
-                    className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
-                    onChange={(e) => setFormData({...formData, password: e?.target.value})}/>
-            </label>
-              <label className="block">
-                <span className="text-gray-700">Retype Password*</span>
-                <input name="retypePassword" type="text" className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0" placeholder=""/>
-              </label>
+        <div className="flex content-center justify-center">
+          <div className="bg-customLightGreen max-w-[600px] rounded-3xl mt-[120px]">
+            <p className="p-5 w-100 text-white font-bold">Please fill the registration form:</p>
+            <div className="flex flex-wrap gap-5 p-5">
+              <TextInput label={'Name*'} name='name' type='text' onChange={(e:any) => setFormData({...formData, name: e?.target.value})}/>
+              <TextInput label={'Surname*'} name='surname' type='text' onChange={(e:any) => setFormData({...formData, surname: e?.target.value})}/>
+              <TextInput label={'Email address*'} name='email' type='email' onChange={(e:any) => setFormData({...formData, email: e?.target.value})}/>
+              <SelectInput options= {sportsOptions} label={'Favourite Sport'} name='favouriteSport' onChange={(e:any) => setFormData({...formData, favouriteSport: e?.target.value})}/>
+              <CountrySelector setFormData={setFormData} formData={formData}/>
+              <TextInput label={'Favourite Football Team'} name='favouriteFootballTeam' type='text' onChange={(e:any) => setFormData({...formData, favouriteFootballTeam: e?.target.value})}/>
+              <TextInput label={'Favourite Basketball Team'} name='favouriteBasketballTeam' type='text' onChange={(e:any) => setFormData({...formData, favouriteBasketballTeam: e?.target.value})}/>
+              <TextInput label={'Username*'} name='userName' type='text' onChange={(e:any) => setFormData({...formData, userName: e?.target.value})}/>
+              <TextInput label={'Password*'} name='password' type='text' onChange={(e:any) => setFormData({...formData, password: e?.target.value})}/>
+              <TextInput label={'Retype Password*'} name='retypePassword' type='text'/>
+            </div>
+            <RegisterButton label={'Register'} onClick={(e:any) => console.log("Register pressed!!")}/>
+          </div>
         </div>
     )
 }
