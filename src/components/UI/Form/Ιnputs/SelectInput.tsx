@@ -15,7 +15,7 @@ const SelectInput = ({children, options, label, customClass, onChange, name}: Se
             <span className="text-white font-semibold text-sm">{label}</span>
             <select 
             name={name} 
-            className={`block w-full mt-3 min-h-[42px] rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 ${customClass ? customClass : ''}`}
+            className={`block w-full mt-3 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 ${customClass ? customClass : ''}`}
             onChange={onChange}>
                 {
                     options && options.map ((option : any) => {

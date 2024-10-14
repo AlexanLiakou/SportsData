@@ -1,4 +1,4 @@
-export default interface User {
+export interface User {
     userId: string;
 	name: string;
 	surname: string;
@@ -9,4 +9,9 @@ export default interface User {
     favouriteSport: string;
     favouriteFootballTeam: string;
     favouriteBasketballTeam: string;
+}
+
+export interface Credentials {
+    userName: string;
+    password: string;
 }
