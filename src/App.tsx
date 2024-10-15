@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Donate from './pages/Donate';
 import Terms from './pages/Terms';
 import ErrorPage from './pages/ErrorPage';
+import UserAccount from './pages/UserAccount';
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path='/contact' element={<Contact/>}></Route>
             <Route path='/donate' element={<Donate/>}></Route>
             <Route path='/terms' element={<Terms/>}></Route>
+            <Route path='/user' element={<UserAccount/>}></Route>
           </Route>
           <Route path='*' element={<ErrorPage/>}></Route>
         </Routes> 

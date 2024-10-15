@@ -9,11 +9,11 @@ const Footer = ()=> {
     
     return (
         <div className="bg-customLightGreen w-[100%] p-5 flex flex-col items-center gap-y-5 mt-[100px] fixed bottom-0 left-0 ">
+            <FooterNavbar/>
             <p>
                 <span className="mr-2"><FontAwesomeIcon icon={faCopyright} style={{color: "#fff"}}/></span>
                 <span className="text-white text-[16px]">{year} SportsData</span>
             </p>
-            <FooterNavbar/>
         </div>
     )
 }

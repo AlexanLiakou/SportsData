@@ -6,6 +6,7 @@ export interface User {
     country: string;
     userName: string;
     password: string;
+    retypedPassword: string;
     favouriteSport: string;
     favouriteFootballTeam: string;
     favouriteBasketballTeam: string;
