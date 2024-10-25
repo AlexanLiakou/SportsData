@@ -1,5 +1,5 @@
 {
-  "users":[
+  "users": [
     {
       "userId": "01",
       "name": "John",
@@ -8,9 +8,11 @@
       "country": "United_States",
       "userName": "johnDoe23",
       "password": "abc123xyz",
+      "retypedPassword": "abc123xyz",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "FC_Barcelona",
-      "favouriteBasketballTeam": "Los_Angeles_Lakers"
+      "favouriteBasketballTeam": "Los_Angeles_Lakers",
+      "id": "8ca4"
     },
     {
       "userId": "02",
@@ -20,9 +22,11 @@
       "country": "United_Kingdom",
       "userName": "sarahs86",
       "password": "passw0rd",
+      "retypedPassword": "passw0rd",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "Manchester_United_FC",
-      "favouriteBasketballTeam": "Chicago_Bulls"
+      "favouriteBasketballTeam": "Chicago_Bulls",
+      "id": "6c3c"
     },
     {
       "userId": "03",
@@ -32,9 +36,11 @@
       "country": "Canada",
       "userName": "mj44johnson",
       "password": "bball4life",
+      "retypedPassword": "bball4life",
       "favouriteSport": "Basketball",
-      "favouriteFootballTeam": "Real_Madrid_CF",
-      "favouriteBasketballTeam": "Boston_Celtics"
+      "favouriteFootballTeam": "Real_Madrid",
+      "favouriteBasketballTeam": "Boston_Celtics",
+      "id": "62a3"
     },
     {
       "userId": "04",
@@ -44,9 +50,11 @@
       "country": "France",
       "userName": "emilyW98",
       "password": "emilysafe1",
+      "retypedPassword": "emilysafe1",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "Paris_Saint-Germain_FC",
-      "favouriteBasketballTeam": "Miami_Heat"
+      "favouriteBasketballTeam": "Miami_Heat",
+      "id": "8997"
     },
     {
       "userId": "05",
@@ -56,9 +64,11 @@
       "country": "Italy",
       "userName": "jBrown007",
       "password": "superJames",
+      "retypedPassword": "superJames",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "Juventus_FC",
-      "favouriteBasketballTeam": "Golden_State_Warriors"
+      "favouriteBasketballTeam": "Golden_State_Warriors",
+      "id": "5a55"
     },
     {
       "userId": "06",
@@ -68,9 +78,11 @@
       "country": "Australia",
       "userName": "oliviaT33",
       "password": "strongPass",
+      "retypedPassword": "strongPass",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "Liverpool_FC",
-      "favouriteBasketballTeam": "Toronto_Raptors"
+      "favouriteBasketballTeam": "Toronto_Raptors",
+      "id": "8252"
     },
     {
       "userId": "07",
@@ -80,9 +92,11 @@
       "country": "Germany",
       "userName": "danAnd44",
       "password": "daniel654",
+      "retypedPassword": "daniel654",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "Chelsea_FC",
-      "favouriteBasketballTeam": "Dallas_Mavericks"
+      "favouriteBasketballTeam": "Dallas_Mavericks",
+      "id": "26ec"
     },
     {
       "userId": "08",
@@ -92,9 +106,11 @@
       "country": "Spain",
       "userName": "sophiaMo123",
       "password": "soMoore98",
+      "retypedPassword": "soMoore98",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "Bayern_Munich",
-      "favouriteBasketballTeam": "Brooklyn_Nets"
+      "favouriteBasketballTeam": "Brooklyn_Nets",
+      "id": "5814"
     },
     {
       "userId": "09",
@@ -104,9 +120,11 @@
       "country": "Mexico",
       "userName": "mattClark22",
       "password": "clarkPower",
+      "retypedPassword": "clarkPower",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "Atletico_Madrid",
-      "favouriteBasketballTeam": "Milwaukee_Bucks"
+      "favouriteBasketballTeam": "Milwaukee_Bucks",
+      "id": "31b8"
     },
     {
       "userId": "10",
@@ -116,9 +134,11 @@
       "country": "Italy",
       "userName": "chloeD12",
       "password": "chloeyy89",
+      "retypedPassword": "chloeyy89",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "AS_Roma",
-      "favouriteBasketballTeam": "New_York_Knicks"
+      "favouriteBasketballTeam": "New_York_Knicks",
+      "id": "96b7"
     },
     {
       "userId": "11",
@@ -128,9 +148,11 @@
       "country": "Argentina",
       "userName": "dMartinez77",
       "password": "secureDave",
+      "retypedPassword": "secureDave",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "Napoli_FC",
-      "favouriteBasketballTeam": "Phoenix_Suns"
+      "favouriteBasketballTeam": "Phoenix_Suns",
+      "id": "d17b"
     },
     {
       "userId": "12",
@@ -140,9 +162,11 @@
       "country": "Portugal",
       "userName": "graceW24",
       "password": "graceful12",
+      "retypedPassword": "graceful12",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "Inter_Milan",
-      "favouriteBasketballTeam": "Atlanta_Hawks"
+      "favouriteBasketballTeam": "Atlanta_Hawks",
+      "id": "8334"
     },
     {
       "userId": "13",
@@ -152,9 +176,11 @@
       "country": "Brazil",
       "userName": "sammyH99",
       "password": "samh12345",
+      "retypedPassword": "samh12345",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "AC_Milan",
-      "favouriteBasketballTeam": "Philadelphia_76ers"
+      "favouriteBasketballTeam": "Philadelphia_76ers",
+      "id": "a616"
     },
     {
       "userId": "14",
@@ -164,9 +190,11 @@
       "country": "Portugal",
       "userName": "emmaThomp8",
       "password": "thompson789",
+      "retypedPassword": "thompson789",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "FC_Porto",
-      "favouriteBasketballTeam": "San_Antonio_Spurs"
+      "favouriteBasketballTeam": "San_Antonio_Spurs",
+      "id": "3b8e"
     },
     {
       "userId": "15",
@@ -176,9 +204,11 @@
       "country": "Spain",
       "userName": "joshL16",
       "password": "joshsecure",
+      "retypedPassword": "joshsecure",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "Sevilla_FC",
-      "favouriteBasketballTeam": "Denver_Nuggets"
+      "favouriteBasketballTeam": "Denver_Nuggets",
+      "id": "d9e7"
     },
     {
       "userId": "16",
@@ -188,9 +218,11 @@
       "country": "United_States",
       "userName": "miaWalk88",
       "password": "miapass123",
+      "retypedPassword": "miapass123",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "Tottenham_Hotspur_FC",
-      "favouriteBasketballTeam": "Utah_Jazz"
+      "favouriteBasketballTeam": "Utah_Jazz",
+      "id": "b5e4"
     },
     {
       "userId": "17",
@@ -200,9 +232,11 @@
       "country": "Netherlands",
       "userName": "willR32",
       "password": "robWilliam",
+      "retypedPassword": "robWilliam",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "Ajax_Amsterdam",
-      "favouriteBasketballTeam": "Indiana_Pacers"
+      "favouriteBasketballTeam": "Indiana_Pacers",
+      "id": "dc2d"
     },
     {
       "userId": "18",
@@ -212,9 +246,11 @@
       "country": "Argentina",
       "userName": "avaHall92",
       "password": "hallava43",
+      "retypedPassword": "hallava43",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "Boca_Juniors",
-      "favouriteBasketballTeam": "Orlando_Magic"
+      "favouriteBasketballTeam": "Orlando_Magic",
+      "id": "a19c"
     },
     {
       "userId": "19",
@@ -224,9 +260,11 @@
       "country": "Argentina",
       "userName": "henryY21",
       "password": "yHenry987",
+      "retypedPassword": "yHenry987",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "River_Plate",
-      "favouriteBasketballTeam": "Minnesota_Timberwolves"
+      "favouriteBasketballTeam": "Minnesota_Timberwolves",
+      "id": "8083"
     },
     {
       "userId": "20",
@@ -236,9 +274,11 @@
       "country": "Brazil",
       "userName": "ellaK70",
       "password": "kingElla",
+      "retypedPassword": "kingElla",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "Santos_FC",
-      "favouriteBasketballTeam": "New_Orleans_Pelicans"
+      "favouriteBasketballTeam": "New_Orleans_Pelicans",
+      "id": "fbc3"
     },
     {
       "userId": "21",
@@ -248,9 +288,11 @@
       "country": "Portugal",
       "userName": "chrisS54",
       "password": "chrisscot12",
+      "retypedPassword": "chrisscot12",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "Benfica",
-      "favouriteBasketballTeam": "Washington_Wizards"
+      "favouriteBasketballTeam": "Washington_Wizards",
+      "id": "3329"
     },
     {
       "userId": "22",
@@ -260,9 +302,11 @@
       "country": "Brazil",
       "userName": "isabellat45",
       "password": "isaTorres1",
+      "retypedPassword": "isaTorres1",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "Corinthians",
-      "favouriteBasketballTeam": "Houston_Rockets"
+      "favouriteBasketballTeam": "Houston_Rockets",
+      "id": "e34b"
     },
     {
       "userId": "23",
@@ -272,9 +316,11 @@
       "country": "Brazil",
       "userName": "jackG88",
       "password": "jackGreen9",
+      "retypedPassword": "jackGreen9",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "Flamengo",
-      "favouriteBasketballTeam": "Cleveland_Cavaliers"
+      "favouriteBasketballTeam": "Cleveland_Cavaliers",
+      "id": "4b45"
     },
     {
       "userId": "24",
@@ -284,9 +330,11 @@
       "country": "Brazil",
       "userName": "sophieB99",
       "password": "safeBaker1",
+      "retypedPassword": "safeBaker1",
       "favouriteSport": "Basketball",
       "favouriteFootballTeam": "Palmeiras",
-      "favouriteBasketballTeam": "Sacramento_Kings"
+      "favouriteBasketballTeam": "Sacramento_Kings",
+      "id": "f212"
     },
     {
       "userId": "25",
@@ -296,9 +344,11 @@
       "country": "Portugal",
       "userName": "ethanC47",
       "password": "ethanc1234",
+      "retypedPassword": "ethanc1234",
       "favouriteSport": "Football",
       "favouriteFootballTeam": "Sporting_CP",
-      "favouriteBasketballTeam": "Detroit_Pistons"
+      "favouriteBasketballTeam": "Detroit_Pistons",
+      "id": "9f09"
     }
   ]
 }

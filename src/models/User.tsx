@@ -1,18 +1,13 @@
 export interface User {
-    userId: string;
+    id?: number | null;
 	name: string;
-	surname: string;
+	// surname: string;
     email: string;
-    country: string;
-    userName: string;
-    password: string;
-    retypedPassword: string;
-    favouriteSport: string;
-    favouriteFootballTeam: string;
-    favouriteBasketballTeam: string;
-}
-
-export interface Credentials {
-    userName: string;
-    password: string;
+    // country: string;
+    // userName: string;
+    // password: string;
+    // retypedPassword?: string;
+    // favouriteSport: string;
+    // favouriteFootballTeam: string;
+    // favouriteBasketballTeam: string;
 }
