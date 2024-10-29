@@ -1,17 +1,20 @@
-import React from "react";
 import {NavLink} from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
 import MainNavbar from "../Navbars/MainNavbar";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFutbol } from '@fortawesome/free-solid-svg-icons';
+import badge from "../../assets/images/badge.svg";
+import MobileMenu from '../Navbars/MobileMenu';
 
 const Header = ()=> {
+
+    const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
+
     return (
-    <div className="bg-customLightGreen w-[100%] flex items-center justify-between px-5 py-6 mb-[25px]">
+    <div className="bg-customLightGreen w-[100%] flex items-center justify-between px-5 py-3 mb-[25px]">
         <div className="flex items-center gap-x-4">
-            <FontAwesomeIcon className="text-[5rem]" icon={faFutbol} style={{color: "#075052"}}/>
-            <NavLink className="text-[20px] text-white" to="/">SportsData</NavLink>
+            <img src={badge} className="custom-md:w-[100px] custom-md:h-[100px] w-[70px] h-[70px]"/>
+            <NavLink className="text-[25px] custom-md:text-[40px] text-white" to="/">SportsData</NavLink>
         </div>
-        <MainNavbar/>
+        {isMobile ? <MobileMenu/> : <MainNavbar/>}   
     </div>
     )
 }

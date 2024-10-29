@@ -12,6 +12,9 @@ export default {
         customDarkgreen: '#075052',
         customLightGreen: '#29A8AC',
       },
+      screens: {
+        'custom-md': '650px',
+      } 
     },
   },
   plugins: [

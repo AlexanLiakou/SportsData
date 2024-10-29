@@ -2,7 +2,6 @@ import React, { createContext, ReactNode, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { logOut } from "../api/axios";
-// import { useFetchUserData } from "../api/queries";
 import { User } from '../models/User';
 
 interface AuthContextProviderProps {
@@ -24,7 +23,6 @@ export const AuthContext = createContext<AuthContextType>({} as AuthContextType)
 
 
 export const AuthContextProvider: React.FC<AuthContextProviderProps> = ({ children }) => {
-    // const { data, isLoading, error } = useFetchUserData('62a3');
     const[token, setToken] = useState(localStorage.getItem('token'));
     const[user, setUser] = useState<User | null>(null);
     const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(false);

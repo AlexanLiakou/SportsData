@@ -9,3 +9,7 @@ export interface Registration {
     password: string,
     password_confirmation: string
 }
+
+export interface Errors {
+    [key: string]: string[];
+  }
