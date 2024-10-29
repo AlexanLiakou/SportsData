@@ -1,8 +1,8 @@
-import {ReactNode} from "react";
+import {ReactNode, MouseEvent} from "react";
 
 type FormButtonProps = {
     children?: ReactNode
-    onClick?: (e:any) => void
+    onClick?: (e:MouseEvent) => void
     label: string
     form: string;
     type: "submit" | "reset" | "button",

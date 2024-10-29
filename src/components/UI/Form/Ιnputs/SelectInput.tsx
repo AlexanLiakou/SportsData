@@ -1,15 +1,14 @@
-import React, {ReactNode} from "react";
+import {ChangeEvent} from "react";
 
 type SelectInputProps = {
-    children?: ReactNode
-    onChange?: (e:any) => void
+    onChange?: (e:ChangeEvent) => void
     name: string
     label: string
     options: any
     customClass?: string
 }
 
-const SelectInput = ({children, options, label, customClass, onChange, name}: SelectInputProps) => {
+const SelectInput = ({options, label, customClass, onChange, name}: SelectInputProps) => {
     return (
         <label className="block grow min-w-[270px]">
             <span className="text-white font-semibold text-sm">{label}</span>

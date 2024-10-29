@@ -1,4 +1,3 @@
-import React from 'react';
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import { BrowserRouter,Routes,Route, Navigate } from 'react-router-dom';
 import { AuthContextProvider} from './contexts/auth';
@@ -12,9 +11,9 @@ import Donate from './pages/Donate';
 import Terms from './pages/Terms';
 import ErrorPage from './pages/ErrorPage';
 import TeamPage from './pages/TeamPage';
-import './App.css'
 import UnAuthProtection from './components/Protection/UnAuthProtection';
 import AuthProtection from './components/Protection/AuthProtection';
+import './App.css'
 
 
 const queryClient = new QueryClient({

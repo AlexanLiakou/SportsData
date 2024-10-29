@@ -1,7 +1,6 @@
 import {NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons';
-import { faAsterisk } from '@fortawesome/free-solid-svg-icons';
 import { faHandHoldingDollar} from '@fortawesome/free-solid-svg-icons';
 
 const FooterNavbar = () => {

@@ -1,7 +1,7 @@
-import React from "react";
+import {ChangeEvent} from "react";
 
 type TextAreaProps = {
-    onChange?: (e:any) => void
+    onChange?: (e:ChangeEvent) => void
     name: string
     label: string
 }

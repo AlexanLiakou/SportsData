@@ -3,7 +3,7 @@ import countryList from 'react-select-country-list';
 import SelectInput from './SelectInput';
 
 type CountrySelectorProps = {
-    setFormData: (e:any) => void
+    setFormData: (e:React.Dispatch<React.SetStateAction<any>>) => void
     formData: any
 }
 
