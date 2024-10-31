@@ -5,7 +5,9 @@ export interface LoginCredentials {
 
 export interface Registration {
     name: string,
+    surname: string;
     email: string,
+    country: string;
     password: string,
     password_confirmation: string
 }

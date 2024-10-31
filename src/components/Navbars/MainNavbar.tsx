@@ -14,7 +14,7 @@ const MainNavbar = () => {
         <nav>
             <ul className="flex items-start flex-row md:items-center gap-x-8">
                 <li className="cursor-pointer"><FontAwesomeIcon className="text-[18px]" onClick={() => navigate('/dashboard')} icon={faHouse} style={{color: "#fff"}}/></li>
-                <li className="cursor-pointer"><FontAwesomeIcon className="text-[18px]" onClick={() => navigate('/dashboard')} icon={faUser} style={{color: "#fff"}}/></li>
+                <li className="cursor-pointer"><FontAwesomeIcon className="text-[18px]" onClick={() => navigate('/account')} icon={faUser} style={{color: "#fff"}}/></li>
                 <li className="cursor-pointer"><FontAwesomeIcon className="text-[18px]" onClick={auth.logOutUser} icon={faRightFromBracket} style={{color: "#fff"}}/></li>
             </ul>
         </nav>

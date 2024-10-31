@@ -1,11 +1,6 @@
 import axios from "axios";
 import { LoginCredentials, Registration } from "../models/Credentials";
-
-
-export async function getFootballTeamData(footballTeam: string) {
-    const res = await axios.get(`https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t=${footballTeam}`);
-    return res;
-};
+// https://www.thesportsdb.com/free_sports_api
 
 export async function logIn(credentials : LoginCredentials) {
     const res = axios.post('/api/login',credentials);
@@ -33,3 +28,7 @@ export async function getUserData(token: string | null)  {
     return res;
 }
 
+export async function getFootballTeamData(footballTeam: string) {
+    const res = await axios.get(`https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t=${footballTeam}`);
+    return res;
+};

@@ -14,6 +14,7 @@ export default {
       },
       screens: {
         'custom-md': '650px',
+        'custom-1024': '1024px',
       } 
     },
   },

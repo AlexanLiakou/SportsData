@@ -12,11 +12,12 @@ type TextInputProps = {
     placeholder?: string
     errorsObject: Errors
     value?: string | number
+    formType?: string
 }
 
-const TextInput = ({children, placeholder, errorsObject, label, onChange, type='text', name, value}: TextInputProps) => {
+const TextInput = ({children, placeholder, errorsObject, label, onChange, type='text', name, value, formType}: TextInputProps) => {
     return (
-        <label className="block md:mb-0 grow min-w-[270px] min-h-[120px]">
+        <label className={`block md:mb-0 grow min-h-[120px] ${formType === 'registration' ? 'md:max-w-[270px]' : ''}`}>
             <span className="text-white font-semibold text-sm">{label}</span>
             <input
                 type={type}

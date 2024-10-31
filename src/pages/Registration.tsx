@@ -4,17 +4,11 @@ import { Registration, Errors } from "../models/Credentials";
 import { useNavigate } from "react-router-dom";
 import TextInput from "../components/UI/Form/Ιnputs/TextInput";
 import {validationRegex} from "../helpers/regex";
-// import SelectInput from "../components/UI/Form/Ιnputs/SelectInput";
-// import CountrySelectorInput from "../components/UI/Form/Ιnputs/CountrySelectorInput";
+import CountrySelectorInput from "../components/UI/Form/Ιnputs/CountrySelectorInput";
 import FormButton from "../components/UI//Buttons/FormButton";
 
 
 const Register = () => {
-
-  // const sportsOptions = [
-  //   {label: 'Football'},
-  //   {label: 'Basketball'}
-  // ];
 
   const [formData, setFormData] = useState({} as Registration);
   const [errors, setErrors] = useState({} as Errors);
@@ -32,16 +26,17 @@ const Register = () => {
     });  
   }
 
-
+  console.log(formData);
     return (
         <div className="flex justify-center items-center h-[100%] px-3">
           <div className="bg-customLightGreen max-w-[600px] rounded-3xl">
             <p className="p-5 w-100 text-white font-bold">Please fill the registration form:</p>
-            <form id="registration" className="flex flex-col w-auto md:w-[600px] gap-0 p-5 pb-0" onSubmit={(e) => handleRegister(e) }>
+            <form id="registration" className="flex flex-col md:flex-wrap md:flex-row w-auto md:w-[600px] gap-3 p-5 pb-0" onSubmit={(e) => handleRegister(e) }>
               <TextInput 
                 label={'Name*'}
                 name='name'
-                type='text' 
+                type='text'
+                formType="registration" 
                 errorsObject={errors}
                 onChange={
                   (e:ChangeEvent<HTMLInputElement>) => {
@@ -53,12 +48,27 @@ const Register = () => {
                     }
                   } 
                 }/>
-              {/* <TextInput label={'Surname*'} name='surname' type='text' errorsObject={errors} onChange={(e:any) => setFormData({...formData, surname: e.target.value})}
-                validationRules={{required: 'Input required', pattern: {value: /^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/, message: 'Use of invalid characters'} }}/> */}
               <TextInput
+                label={'Surname*'}
+                name='surname' 
+                type='text'
+                formType="registration"  
+                errorsObject={errors} 
+                onChange={
+                  (e:ChangeEvent<HTMLInputElement>) => {
+                    if (validationRegex.nameRegex.test(e.target.value)) {
+                      setFormData({...formData, surname: e.target.value});
+                      setErrors({...errors, name: ['']});
+                    } else {
+                      setErrors({...errors, surname: ['Please use only letters']})
+                    }
+                  } 
+                }/>              
+                <TextInput
                 label={'Email address*'} 
                 name='email' 
-                type='email' 
+                type='email'
+                formType="registration"  
                 errorsObject={errors}
                 onChange={
                   (e:ChangeEvent<HTMLInputElement>) => {
@@ -70,10 +80,17 @@ const Register = () => {
                     }
                   } 
                 }/>
+              <CountrySelectorInput
+                setFormData={setFormData}
+                formData={formData}
+                label={'Country of origin*'}
+                name={'country'}
+                formType="registration"/>
               <TextInput
                 label={'Password*'} 
                 name='password' 
-                type='password' 
+                type='password'
+                formType="registration"  
                 errorsObject={errors}
                 onChange={
                   (e:ChangeEvent<HTMLInputElement>) => {
@@ -89,6 +106,7 @@ const Register = () => {
                 label={'Retype Password*'}
                 name='retypedPassword'
                 type='password'
+                formType="registration" 
                 errorsObject={errors} 
                 onChange={
                   (e:ChangeEvent<HTMLInputElement>) => {

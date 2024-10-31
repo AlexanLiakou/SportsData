@@ -20,7 +20,7 @@ const MobileMenu = () => {
         <FontAwesomeIcon className="text-[18px] cursor-pointer mt-[37px] mr-[21px] self-end" icon={faX} onClick={toggleMenu} style={{color: "#fff"}}/>
         <ul className={`flex flex-col justify-center items-center h-[75%]`}>
             <li className="w-[100%] py-3 cursor-pointer font-bold text-center text-white text-[16px]" onClick={() => navigate('/dashboard')}>Home</li>
-            <li className="w-[100%] py-3 cursor-pointer font-bold text-center text-white text-[16px]" onClick={() => navigate('/dashboard')}>Account</li>
+            <li className="w-[100%] py-3 cursor-pointer font-bold text-center text-white text-[16px]" onClick={() => navigate('/account')}>Account</li>
             <li className="w-[100%] py-3 cursor-pointer font-bold text-center text-white text-[16px]" onClick={auth.logOutUser}>Logout</li>
         </ul>
       </div>

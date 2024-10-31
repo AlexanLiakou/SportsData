@@ -33,7 +33,7 @@ export const AuthContextProvider: React.FC<AuthContextProviderProps> = ({ childr
             headers: {Authorization: `Bearer ${token}`}
         })
         .then((res) => {
-            setUser({id: res.data.id, email: res.data.email, name: res.data.name});
+            setUser({id: res.data.id, email: res.data.email, name: res.data.name, surname: res.data.surname, country: res.data.country, favourite_team: res.data.favourite_team});
       }).catch((error) => {
             console.log(error);
       });  
@@ -59,7 +59,7 @@ export const AuthContextProvider: React.FC<AuthContextProviderProps> = ({ childr
                 setIsAuthenticated(false);
                 localStorage.removeItem('token');
                 navigate('/');
-            }
+            },
             }}>
             {children}
         </AuthContext.Provider>

@@ -5,15 +5,16 @@ import MainLayout from './components/Layouts/MainLayout';
 import OpenLayout from './components/Layouts/OpenLayout';
 import Login from './pages/Login';
 import Registration from './pages/Registration';
-import Dashboard from './pages/Dashboard';
 import Contact from './pages/Contact';
 import Donate from './pages/Donate';
 import Terms from './pages/Terms';
 import ErrorPage from './pages/ErrorPage';
 import TeamPage from './pages/TeamPage';
+import AccountPage from "./pages/AccountPage";
 import UnAuthProtection from './components/Protection/UnAuthProtection';
 import AuthProtection from './components/Protection/AuthProtection';
 import './App.css'
+import DashboardPage from "./pages/DashboardPage";
 
 
 const queryClient = new QueryClient({
@@ -38,8 +39,9 @@ function App() {
             <Route path='/' element={<Navigate to="/login"/>}/>
             <Route element={<AuthProtection/>}>
               <Route element={<MainLayout/>}>
-                <Route path='/dashboard' element={<Dashboard/>}/>
+                <Route path='/dashboard' element={<DashboardPage/>}/>
                 <Route path='/team' element={<TeamPage/>}/>
+                <Route path='/account' element={<AccountPage/>}/>
                 <Route path='/contact' element={<Contact/>}/>
                 <Route path='/donate' element={<Donate/>}/>
                 <Route path='/terms' element={<Terms/>}/>
